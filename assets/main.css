@@ -190,7 +190,6 @@ table {
 .site-title {
   font-size: 26px;
   font-weight: 300;
-  line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
   margin-left: 8px;
@@ -198,16 +197,11 @@ table {
   .site-title, .site-title:visited {
     color: #eee; }
 
-.site-logo-container {
-  height: 54px;
-  width: 32px;
-  position: relative;
-  float: left; }
-
 .site-logo {
-  position: absolute;
-  top: 50%;
-  margin-top: -16px;
+  max-width: 100%;
+  max-height: 45px;
+  margin-bottom: 12px;
+  margin-top: 8px;
   float: left; }
 
 .site-nav {
