@@ -159,9 +159,6 @@ pre {
   padding-right: 4px;
   vertical-align: baseline; }
 
-.social-media-list a {
-  color: #c8ab37; }
-
 /**
  * Tables
  */
@@ -266,6 +263,9 @@ table {
 .social-media-list {
   list-style: none;
   margin-left: 0; }
+  .contact-list a,
+  .social-media-list a {
+    color: #c8ab37; }
 
 .footer-col-wrapper {
   font-size: 15px;
@@ -338,6 +338,16 @@ table {
   margin-bottom: 30px;
   width: 64px;
   height: 64px; }
+
+.post-github {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  margin-left: 0; }
+  .post-github > li {
+    margin-right: 15px; }
+  .post-github a {
+    color: #c8ab37; }
 
 /**
  * Posts
