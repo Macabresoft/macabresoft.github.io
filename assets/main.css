@@ -332,6 +332,13 @@ table {
   background-color: #222222;
   padding: 30px; }
 
+.post-icon {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  width: 64px;
+  height: 64px; }
+
 /**
  * Posts
  */
