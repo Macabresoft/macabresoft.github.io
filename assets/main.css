@@ -12,7 +12,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #eee;
+  color: #E3DAC9;
   background-color: #1a1a1a;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -81,7 +81,7 @@ a {
   a:visited {
     color: #634960; }
   a:hover {
-    color: #eee;
+    color: #E3DAC9;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -196,7 +196,7 @@ table {
   margin-right: 30px;
   float: left; }
   .site-title, .site-title:visited {
-    color: #eee; }
+    color: #E3DAC9; }
 
 .site-logo {
   max-width: 100%;
@@ -213,7 +213,7 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #eee;
+    color: #E3DAC9;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -340,14 +340,12 @@ table {
   height: 64px; }
 
 .post-github {
-  list-style: none;
   display: flex;
-  justify-content: left;
+  flex-wrap: wrap;
   margin-left: 0; }
-  .post-github > li {
-    margin-right: 15px; }
   .post-github a {
-    color: #c8ab37; }
+    color: #c8ab37;
+    margin-right: 15px; }
 
 /**
  * Posts
