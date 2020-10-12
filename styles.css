@@ -107,6 +107,24 @@ header {
     }
 }
 
+h1 a:link {
+    color: var(--yellow-color);
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: var(--yellow-color);
+}
+
+h1 a:hover {
+    color: var(--yellow-color);
+    text-decoration: underline;
+}
+
+h1 a:active {
+    color: var(--dark-yellow-color);
+}
+
 a:link {
     color: var(--purple-color);
     text-decoration: underline;
@@ -124,22 +142,4 @@ a:hover {
 
 a:active {
     color: var(--dark-purple-color);
-}
-
-h1 a:link {
-    color: var(--yellow-color);
-    text-decoration: none;
-}
-
-h1 a:visited {
-    color: var(--yellow-color);
-}
-
-h1 a:hover {
-    color: var(--yellow-color);
-    text-decoration: underline;
-}
-
-h1 a:active {
-    color: var(--dark-yellow-color);
 }
