@@ -28,6 +28,7 @@ body {
     font-size: var(--default-font-size);
     font-style: normal;
     background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 header {
