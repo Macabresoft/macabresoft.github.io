@@ -1,102 +1,64 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Macabresoft | Software made by Brett Story.</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Macabresoft" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Software made by Brett Story." />
-<meta property="og:description" content="Software made by Brett Story." />
-<link rel="canonical" href="http://macabresoft.com/" />
-<meta property="og:url" content="http://macabresoft.com/" />
-<meta property="og:site_name" content="Macabresoft" />
-<script type="application/ld+json">
-{"@type":"WebSite","url":"http://macabresoft.com/","headline":"Macabresoft","name":"Macabresoft","description":"Software made by Brett Story.","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?"><link type="application/atom+xml" rel="alternate" href="http://macabresoft.com/feed.xml" title="Macabresoft" /></head>
-<body><header class="site-header" role="banner">
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+        <link type="application/atom+xml" rel="alternate" title="Macabresoft" />
+        <title>Macabresoft</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="Macabresoft" />
+            </div>
+        </header>
+        <div class="section-container">
+            <div class="section">
+                <h1>About</h1>
 
-  <div class="wrapper"><div class="site-logo-container">
-    </div>
+                <p>
+                    Macabresoft makes software. It's really just me, Brett Story.                
+                    Pretty much everything I develop is open-source, so check out the <a href="https://github.com/Macabresoft">Macabresoft GitHub page</a> to get into specifics of what I make.
+                </p>
+                <p>
+                    In general, the main focus of Macabresoft is on games with the Macabre2D engine, but I regularly delve into audio programming and productivity tools when inspiration hits.
+                    Follow <a href="https://twitter.com/macabresoft">@macabresoft</a> for updates.
+                </p>
+            </div>
+            
+            <hr />
 
-    <a class="site-title" rel="author" href="/">
-      <img class="site-logo" src="/assets/img/logo.png" alt="Macabresoft" />
-    </a>
-  </div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
+            <div class="section">
+                <h1><a href="https://github.com/Macabresoft/Macabre2D">Macabre2D</a></h1>
 
-  <ul class="post-list"><li>
-      <h1 class="post-title p-name">
-        Macabre2D<img src="/assets/img/macabre2d-icon.png" class="post-icon" /></h1>
+                <p>
+                    A 2D game engine built on top of <a href="https://www.monogame.net/">MonoGame</a>. 
+                    Custom features include physics, tile maps, sprite animations, audio playback with looping, and more.
+                </p>
+                <p>
+                    Previously included a Windows only editor, but the entire engine is currently being reworked from the ground up 
+                    to support a multi-platform editor using <a href="http://avaloniaui.net/">AvaloniaUI</a>.
+                </p>
+            </div>
 
-      <div class="post-content e-content">
-        A 2D game engine built on top of the MonoGame framework. This project was started on April 23, 2016 (some early repository history was lost).
-      </div><div class="post-github">
-        
-        <a href="https://github.com/Macabresoft/Macabre2D"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github" /></svg><span class="username">Macabre2D</span></a>
-        
-        </div></li><li>
-      <h1 class="post-title p-name">
-        Zvukosti Tuner<img src="/assets/img/zvukosti-icon.png" class="post-icon" /></h1>
+            <hr />
 
-      <div class="post-content e-content">
-        An instrument tuning app for windows without ads or cost. Zvukosti is a bastardization of two Russian words that ultimately mean "bone sound". I don't know, it's Macabre-esque and sounds cool!
+            <div class="section">
+                <h1><a href="https://github.com/Macabresoft/zvukosti-tuner">Zvukosti Tuner</a></h1>
+                <p>
+                    A work-in-progress instrument tuning application. Currently focused on desktop platforms with plans to release on Android in the future.
+                </p>
+            </div>
 
-The tuner is currently in development focused on Windows, but will eventually come to Mac/Linux. Looking into making both a console app and using AvaloniaUI. The end goal is a free and open source guitar tuner app for Android that just works without any annoyances.
-      </div><div class="post-github">
-        
-        <a href="https://github.com/Macabresoft/zvukosti-tuner-desktop"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github" /></svg><span class="username">zvukosti-tuner-desktop</span></a>
-        
-        </div></li><li>
-      <h1 class="post-title p-name">
-        Macabresoft.Core<img src="/assets/img/macabresoft-icon.png" class="post-icon" /></h1>
+            <hr />
 
-      <div class="post-content e-content">
-        .NET Core libraries used across Macabresoft products.
-      </div><div class="post-github">
-        
-        <a href="https://github.com/Macabresoft/Macabresoft.Core"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github" /></svg><span class="username">Macabresoft.Core</span></a>
-        
-        </div></li><li>
-      <h1 class="post-title p-name">
-        Macabresoft.MonoGame<img src="/assets/img/macabresoft-icon.png" class="post-icon" /></h1>
+            <div class="section">
+                <h1><a href="https://github.com/Macabresoft/Macabresoft.Core">Macabresoft.Core</a></h1>
 
-      <div class="post-content e-content">
-        Common MonoGame functionality used across Macabresoft products. A framework built on top of another framework.
-      </div><div class="post-github">
-        
-        <a href="https://github.com/Macabresoft/Macabresoft.MonoGame"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github" /></svg><span class="username">Macabresoft.MonoGame</span></a>
-        
-        </div></li><li>
-      <h1 class="post-title p-name">
-        Cosmic Jam<img src="/assets/img/cosmic-jam-icon.png" class="post-icon" /></h1>
-
-      <div class="post-content e-content">
-        <p>Cosmic Jam is an interface to create songs for the sythesizer within Macabre2D.Framework. This project has been deprecated.</p>
-
-      </div><div class="post-github">
-        
-        <a href="https://github.com/Macabresoft/CosmicJam"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github" /></svg><span class="username">CosmicJam</span></a>
-        
-        </div></li></ul></div>
-
-      </div>
-    </main><footer class="h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Macabresoft"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">View GitHub Page</span></a></li><li><a href="https://www.twitter.com/macabresoft"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">View Twitter Page</span></a></li></ul>
-</div>
-    </div>
-  </div>
-</footer></body>
-
+                <p>.NET Core libraries used across Macabresoft products.</p>
+            </div>
+        </div>
+    </body>
 </html>

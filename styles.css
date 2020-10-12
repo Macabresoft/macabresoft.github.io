@@ -1,0 +1,144 @@
+:root {
+    --white-color: #E3DAC9;
+    --purple-color: #634960;
+    --dark-purple-color:  #402C37;
+    --yellow-color: #C8AB37;
+    --dark-yellow-color :#735D23;
+    --black-color: #161616;
+
+    --default-font-size: 1.5em;
+    --standard-margin: 2vmin;
+}
+
+@media only screen and (min-width : 768px) {
+    :root {
+        --default-font-size: 1em;
+        --standard-margin: 1vmin;
+    }
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Fira Sans, sans-serif;
+    font-weight: 300;
+    font-size: var(--default-font-size);
+    font-style: normal;
+    background-color: var(--black-color);
+}
+
+header {
+    background-color: var(--purple-color);
+}
+
+.logo {
+    padding-top: var(--standard-margin);
+    padding-bottom: var(--standard-margin);
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width : 768px) {
+    .section-container {
+        width: 60%;
+    }
+}
+
+.section-container hr {
+    height: 1px;
+    width: 90vw;
+    margin-top: var(--standard-margin);
+    background-color: var(--purple-color);
+    color: var(--purple-color);
+    opacity: 50%;
+}
+
+@media only screen and (min-width : 768px) {
+    .section-container hr {
+        width: 640px;
+    }
+}
+
+.section {
+    width: 90vw;    
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--standard-margin);
+}
+
+@media only screen and (min-width : 768px) {
+    .section {
+        width: 640px;
+    }
+}
+
+ .section p {
+    line-height: 1.75em;
+}
+
+.section h1 {
+    color: var(--yellow-color);
+    font-weight: 600;
+}
+
+@media only screen and (min-width : 768px) {
+    .project {
+        width: 40%;
+    }
+}
+
+a:link {
+    color: var(--purple-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--purple-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--purple-color);
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--dark-purple-color);
+}
+
+h1 a:link {
+    color: var(--yellow-color);
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: var(--yellow-color);
+}
+
+h1 a:hover {
+    color: var(--yellow-color);
+    text-decoration: underline;
+}
+
+h1 a:active {
+    color: var(--dark-yellow-color);
+}
