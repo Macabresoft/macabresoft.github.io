@@ -1,10 +1,13 @@
 :root {
     --white-color: #E3DAC9;
     --purple-color: #634960;
-    --dark-purple-color:  #402C37;
+    --dark-purple-color:  #483646;
+    --light-purple-color: #856F7C;
     --yellow-color: #C8AB37;
     --dark-yellow-color :#735D23;
-    --black-color: #090909;
+    --gray-color: #222;
+    --black-color: #111;
+    --shadow-color: #000;
 
     --default-font-size: 1.5em;
     --standard-margin: 2vmin;
@@ -17,36 +20,21 @@
     }
 }
 
+html {
+    height: 100%;
+    background: linear-gradient(var(--gray-color), var(--black-color)) fixed;
+}
+
 html, body {
     margin: 0;
-    height: 100%;
 }
 
 body {
-    font-family: Fira Sans, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: var(--default-font-size);
     font-style: normal;
-    background-color: var(--black-color);
     color: var(--white-color);
-}
-
-header {
-    background-color: var(--purple-color);
-}
-
-.logo {
-    padding-top: var(--standard-margin);
-    padding-bottom: var(--standard-margin);
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .section-container {
@@ -64,21 +52,6 @@ header {
     }
 }
 
-.section-container hr {
-    height: 1px;
-    width: 90vw;
-    margin-top: var(--standard-margin);
-    background-color: var(--purple-color);
-    color: var(--purple-color);
-    opacity: 50%;
-}
-
-@media only screen and (min-width : 768px) {
-    .section-container hr {
-        width: 640px;
-    }
-}
-
 .section {
     width: 90vw;    
     margin-left: auto;
@@ -92,13 +65,15 @@ header {
     }
 }
 
- .section p {
+p {
     line-height: 1.75em;
+    text-shadow: 0 0 0.25rem var(--shadow-color);
 }
 
-.section h1 {
+h1 {
     color: var(--yellow-color);
-    font-weight: 600;
+    font-weight: normal;
+    text-shadow: 0 0 0.25rem var(--shadow-color);
 }
 
 @media only screen and (min-width : 768px) {
@@ -126,7 +101,7 @@ h1 a:active {
 }
 
 a:link {
-    color: var(--purple-color);
+    color: var(--light-purple-color);
     text-decoration: underline;
 }
 
@@ -136,10 +111,25 @@ a:visited {
 }
 
 a:hover {
-    color: var(--purple-color);
+    color: var(--light-purple-color);
     text-decoration: none;
 }
 
 a:active {
-    color: var(--dark-purple-color);
+    color: var(--purple-color);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+  
+.icon svg {
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+    fill: var(--white-color);;
+    -webkit-filter: drop-shadow(0 0 0.25rem var(--shadow-color)); 
+    filter: drop-shadow(0 0 0.25rem var(--shadow-color));
 }
