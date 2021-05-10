@@ -9,8 +9,7 @@
     --black-color: #111;
     --shadow-color: #000;
 
-    --default-font-size: 1.5em;
-    --standard-margin: 2vmin;
+    --standard-margin: 1vmin;
 }
 
 html {
@@ -25,7 +24,7 @@ html, body {
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: 300;
-    font-size: var(--default-font-size);
+    font-size: 1rem;
     font-style: normal;
     color: var(--white-color);
 }
@@ -110,20 +109,11 @@ a:active {
 }
 
 @media only screen and (min-width : 768px) {
-    :root {
-        --default-font-size: 1em;
-        --standard-margin: 1vmin;
-    }
-
     .section-container {
         width: 60%;
     }
 
     .section {
         width: 640px;
-    }
-
-    .project {
-        width: 40%;
     }
 }
