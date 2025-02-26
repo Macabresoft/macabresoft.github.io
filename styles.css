@@ -42,12 +42,41 @@ body {
     width: 90vw;    
     margin-left: auto;
     margin-right: auto;
-    padding: var(--standard-margin);
+    padding-bottom: var(--standard-margin);
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+
+}
+
+.horizontal ul {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.horizontal li {
+    display: inline-block;
+    color: var(--dark-yellow-color);
+    text-shadow: 0 0 0.25rem var(--shadow-color);
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 p {
     line-height: 1.75em;
     text-shadow: 0 0 0.25rem var(--shadow-color);
+    text-align: justify;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -56,21 +85,21 @@ h1, h2, h3, h4 {
     text-shadow: 0 0 0.25rem var(--shadow-color);
 }
 
-h1 a:link {
+h1 a:link, h2 a:link {
     color: var(--yellow-color);
     text-decoration: none;
 }
 
-h1 a:visited {
+h1 a:visited, h2 a:visited {
     color: var(--yellow-color);
 }
 
-h1 a:hover {
+h1 a:hover, h2 a:hover {
     color: var(--yellow-color);
     text-decoration: underline;
 }
 
-h1 a:active {
+h1 a:active, h2 a:active {
     color: var(--dark-yellow-color);
 }
 
