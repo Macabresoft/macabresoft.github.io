@@ -48,7 +48,6 @@ body {
 .horizontal {
     display: flex;
     justify-content: center;
-
 }
 
 .horizontal ul {
@@ -62,12 +61,12 @@ body {
     display: inline-block;
     color: var(--dark-yellow-color);
     text-shadow: 0 0 0.25rem var(--shadow-color);
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 p {
-    line-height: 1.75em;
+    line-height: 1.5em;
     text-shadow: 0 0 0.25rem var(--shadow-color);
     text-align: justify;
 }
@@ -127,19 +126,30 @@ img {
     height: auto;
 }
 
-.icon {
+.logo {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
   
-.icon svg {
+.logo svg {
     height: 8rem;
     width: 8rem;
     position: relative;
     fill: var(--white-color);;
     -webkit-filter: drop-shadow(0 0 0.25rem var(--shadow-color)); 
     filter: drop-shadow(0 0 0.25rem var(--shadow-color));
+}
+
+.icon img {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    padding-right: 0.25rem;
+}
+
+.icon a {
+    vertical-align: middle;
 }
 
 @media only screen and (min-width : 768px) {
