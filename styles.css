@@ -46,23 +46,20 @@ body {
 }
 
 .horizontal {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.horizontal ul {
-    list-style: none;
-    display: inline-block;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-}
-
-.horizontal li {
-    display: inline-block;
+.horizontal span {
     color: var(--dark-yellow-color);
     text-shadow: 0 0 0.25rem var(--shadow-color);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.horizontal .icon {
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -152,6 +149,11 @@ img {
 
 .icon a {
     vertical-align: middle;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (min-width : 768px) {
