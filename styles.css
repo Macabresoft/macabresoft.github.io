@@ -47,11 +47,13 @@ body {
 
 .horizontal {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .horizontal ul {
     list-style: none;
+    display: inline-block;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
