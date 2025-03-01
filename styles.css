@@ -50,6 +50,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .horizontal span {
@@ -149,11 +151,6 @@ img {
 
 .icon a {
     vertical-align: middle;
-}
-
-.footer {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 
 @media only screen and (min-width : 768px) {
