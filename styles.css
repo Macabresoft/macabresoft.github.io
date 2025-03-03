@@ -6,7 +6,7 @@
     --yellow-color: #C8AB37;
     --dark-yellow-color :#735D23;
     --gray-color: #222;
-    --black-color: #111;
+    --black-color: #090909;
     --shadow-color: #000;
 
     --standard-margin: 1vmin;
@@ -55,7 +55,7 @@ body {
 }
 
 .horizontal span {
-    color: var(--dark-yellow-color);
+    color: var(--yellow-color);
     text-shadow: 0 0 0.25rem var(--shadow-color);
     margin-left: 1rem;
     margin-right: 1rem;
@@ -100,7 +100,11 @@ h1 a:hover, h2 a:hover {
 }
 
 h1 a:active, h2 a:active {
-    color: var(--dark-yellow-color);
+    color: var(--yellow-color);
+}
+
+a {
+    text-shadow: 0 0 0.25rem var(--shadow-color);
 }
 
 a:link {
@@ -109,7 +113,7 @@ a:link {
 }
 
 a:visited {
-    color: var(--purple-color);
+    color: var(--light-purple-color);
     text-decoration: none;
 }
 
