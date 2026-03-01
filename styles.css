@@ -1,12 +1,13 @@
 :root {
-    --white-color: #E3DAC9;
+    --bone-color: #E3DAC9;
+    --white-color: #FFF;
     --purple-color: #634960;
     --dark-purple-color:  #483646;
     --light-purple-color: #856F7C;
     --yellow-color: #C8AB37;
     --dark-yellow-color :#735D23;
     --gray-color: #222;
-    --black-color: #090909;
+    --black-color: #000;
     --shadow-color: #000;
 
     --standard-margin: 1vmin;
@@ -24,7 +25,7 @@ html, body {
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-style: normal;
     color: var(--white-color);
 }
@@ -56,7 +57,6 @@ body {
 
 .horizontal span {
     color: var(--yellow-color);
-    text-shadow: 0 0 0.25rem var(--shadow-color);
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -68,8 +68,6 @@ body {
 
 p {
     line-height: 1.5em;
-    text-shadow: 0 0 0.25rem var(--shadow-color);
-    text-align: justify;
 }
 
 h1 {
@@ -82,7 +80,6 @@ h1 {
 h1, h2, h3, h4 {
     color: var(--yellow-color);
     font-weight: normal;
-    text-shadow: 0 0 0.25rem var(--shadow-color);
 }
 
 h1 a:link, h2 a:link {
@@ -101,10 +98,6 @@ h1 a:hover, h2 a:hover {
 
 h1 a:active, h2 a:active {
     color: var(--yellow-color);
-}
-
-a {
-    text-shadow: 0 0 0.25rem var(--shadow-color);
 }
 
 a:link {
@@ -141,9 +134,7 @@ img {
     height: 8rem;
     width: 8rem;
     position: relative;
-    fill: var(--white-color);;
-    -webkit-filter: drop-shadow(0 0 0.25rem var(--shadow-color)); 
-    filter: drop-shadow(0 0 0.25rem var(--shadow-color));
+    fill: var(--bone-color);
 }
 
 .icon img {
@@ -157,12 +148,16 @@ img {
     vertical-align: middle;
 }
 
+.footer {
+    margin-top: 4rem;
+}
+
 @media only screen and (min-width : 768px) {
     .section-container {
         width: 60%;
     }
 
     .section {
-        width: 640px;
+        width: 800px;
     }
 }
